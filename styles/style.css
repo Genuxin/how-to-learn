@@ -83,7 +83,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 756px;
+  width: 765px;
   height: 608px;
   z-index: 1;
   object-fit: cover;
@@ -150,6 +150,9 @@
 .section-title_theme_dark {
   color: #fff;
   padding-top: 90px;
+  position: relative;
+  z-index: 2;
+  /* Без position relative z-index не работает, поэтому дополнительно добавил */
 }
 
 .table__heading_theme_dark {
@@ -200,6 +203,7 @@
 }
 
 .table__heading {
+  margin-top: 0;
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
@@ -337,7 +341,7 @@
   color: #fff;
 }
 
-.footer__social-icons {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
