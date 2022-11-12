@@ -1,0 +1,7 @@
+.section-title_theme_dark {
+  color: #fff;
+  padding-top: 90px;
+  position: relative;
+  z-index: 2;
+  /* Без position relative z-index не работает, поэтому дополнительно добавил */
+}
